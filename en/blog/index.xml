@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Les actualités mviewer</title>
-    <link>https://mviewer.netlify.app/fr/blog/</link>
-    <description>Actualités récentes</description>
+    <title>Last Posts</title>
+    <link>https://mviewer.netlify.app/en/blog/</link>
+    <description>Last news from mviewer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Mon, 11 july 2022 11:22:16 +0600</lastBuildDate><atom:link href="https://mviewer.netlify.app/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 july 2022 11:22:16 +0600</lastBuildDate><atom:link href="https://mviewer.netlify.app/en/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deuxièmes rencontres mviewer</title>
+      <title>Second mviewer event</title>
       <link>https://mviewer.netlify.app/fr/blog/post-1/</link>
       <pubDate>Mon, 11 july 2022 11:22:16 +0600</pubDate>
       
       <guid>https://mviewer.netlify.app/fr/blog/post-1</guid>
-      <description>Le 25 novembre, le Comité de pilotage (PSC) organise les deuxièmes rencontres mviewer à Paris (15e) au Lieu de la transformation publique.</description>
+      <description>The perring steering committee (PSC) is pleased to announce the upcoming second mviewer meeting in Paris (15th arrondissement) on November 25 at the Place de la transformation publique: program, registration, location.</description>
     </item>    
   </channel>
 </rss>
