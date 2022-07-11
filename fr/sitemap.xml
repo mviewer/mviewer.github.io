@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mviewer.netlify.com/fr/categories/</loc>
+    <loc>https://mviewer.netlify.com/fr/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mviewer.netlify.com/en/categories/"
+                href="https://mviewer.netlify.com/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://mviewer.netlify.com/fr/categories/"
+                href="https://mviewer.netlify.com/fr/blog/"
                 />
   </url>
   
@@ -27,20 +27,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://mviewer.netlify.com/fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mviewer.netlify.com/fr/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mviewer.netlify.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://mviewer.netlify.com/fr/tags/"
                 />
   </url>
   
