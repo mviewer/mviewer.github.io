@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr-fr"><head>
   <meta charset="utf-8">
-  <title>Deuxièmes rencontres mviewer à Paris.</title>
-
+  <title>mviewer</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="this is a meta description">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="description" content="mviewer, un visualiseur à votre image">
+  <meta name="author" content="mviewer">
+  <meta name="generator" content="Hugo 0.69.0" />
 
   <!-- plugins -->
   
@@ -24,6 +23,7 @@
   
   <link rel="stylesheet" href="https://mviewer.netlify.com/css/magnific-popup.css ">
   
+  <link rel="alternate" type="application/rss+xml" title="Flux RSS mviewer" href="https://mviewer.netlify.app/fr/blog/index.xml" />
 
   <!-- Main Stylesheet -->
   
@@ -34,11 +34,9 @@
   <link rel="icon" href="https://mviewer.netlify.com/images/favicon.png " type="image/x-icon">
 
 </head><body id="body">
-<!-- preloader start -->
-<div class="preloader">
-  
+<div id="preloader-wrapper">
+  <div class="pre-loader"></div>
 </div>
-<!-- preloader end -->
 
 <header>
   <div class="container">
@@ -56,24 +54,23 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="https://mviewer.netlify.com/fr/index.html#feature">A PROPOS</a>
-          </li>
-		  
-          
-          <li class="nav-item">
-            <a class="nav-link page-scroll" href="https://mviewer.netlify.com/fr/index.html#portfolio">PORTFOLIO</a>
+            <a class="nav-link page-scroll" href="#feature">A PROPOS</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="https://mviewer.netlify.com/fr/index.html#gallery">UTILISATEURS</a>
+            <a class="nav-link page-scroll" href="#portfolio">PORTFOLIO</a>
           </li>
-		  
-           <li class="nav-item">
-            <a class="nav-link page-scroll" href="https://mviewer.netlify.com/fr/blog/">BLOG</a>
-          </li>         
           
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="https://github.com/geobretagne/mviewer" target="_blank">TELECHARGER</a>
+            <a class="nav-link page-scroll" href="#gallery">UTILISATEURS</a>
+          </li>
+                  
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="https://mviewer.netlify.com/fr/blog">BLOG</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="https://github.com/geobretagne/mviewer" target="_blank">TÉLÉCHARGER</a>
           </li>
           
           <li class="nav-item">
@@ -96,55 +93,743 @@
   </div>
 </header>
 
+<section class="section-s">
+  <div class="container">
+    <div class="row">
+		<div class="col-12 alert alert-warning alert-dismissible fade show" role="alert">
+		<strong><span style="font-size:17px">Prenez date ! Les deuxièmes rencontres mviewer sont programmées le 25 novembre à Paris. Plus d'information et inscription en <a href="https://mviewer.netlify.app/fr/blog/post-1/index.html">ligne</a>.</strong></span>
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		</div>
+	</div>
+  </div>  
+</section>
 
 <section class="section">
   <div class="container">
+      <div class="row">
+          <div class="col-md-6 text-center mb-5 mb-md-0">
+              <img class="img-fluid" src="https://mviewer.netlify.com/images/mviewer.png" alt="">
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+              <div class="block">
+                  <h1 class="font-weight-bold mb-4 font-size-60">Propulser vos données</h1>
+                  <p class="mb-4">mviewer est une application cartographique initiée et développée par la Région Bretagne, sous le nom de Kartenn (carte en breton).<!-- raw HTML omitted --><!-- raw HTML omitted --> Le code source de cette application est librement réutilisable depuis 2014. De nombreuses collectivités mais également des entreprises, le secteur de la recherche et de l’enseignement utilisent librement cette application et participent à son évolution.</p>
+                  
+                  <a class="btn btn-main" href="/fr/#feature" role="button">Découvrir mviewer !</a>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section" id="feature">
+  <div class="container">
     <div class="row">
-      <div class="col-md-5 mb-4 mb-md-0">
-        <div class="sticky-image">
-          <img class="img-fluid w-100" src="../../../images/blog/affiche_2erencontres.png" alt="">
+      <div class="col-12">
+        <div class="heading">
+          <h2>Un visualiseur cartographique à votre image</h2>
         </div>
       </div>
-      <div class="col-lg-6 col-md-7 offset-lg-1">
-        <h1 class="mb-4">Deuxièmes rencontres mviewer</h1>
+      <div class="col-md-4">
+        
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 tf-ion-stats-bars"></i>
+          <h4 class="font-weight-bold mb-2">Plusieurs modes de visualisation</h4>
+          <p>Cartographie - Chiffres-clés - Datavisualisation - Contenu éditorial (Photographies, textes, vidéos, etc)</p>
+        </div>
+        
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 tf-ion-ios-people"></i>
+          <h4 class="font-weight-bold mb-2">Simple d’utilisation et intuitif</h4>
+          <p>Donnez un maximum d’autonomie à vos utilisateurs spécialistes ou grand public</p>
+        </div>
+        
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 tf-ion-social-buffer"></i>
+          <h4 class="font-weight-bold mb-2">Consommer des données</h4>
+          <p>Infrastructures de données spatiales (IDS) - Cadastre - IGN - Plateformes Open Data</p>
+        </div>
+        
+      </div>
+      <div class="col-md-4 text-center align-self-center mb-4 mb-md-0">
+        <img class="img-fluid" src="https://mviewer.netlify.com/images/mviewer-2.png" alt="">
+      </div>
+      <div class="col-md-4">
+          
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 tf-ion-ios-browsers"></i>
+          <h4 class="font-weight-bold mb-2">Interopérable au travers de standards et API</h4>
+          <p>OGC - Geoserver - Base de données - GeoNetwork</p>
+        </div>
+        
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 tf-ion-ios-unlocked"></i>
+          <h4 class="font-weight-bold mb-2">Conçu sur des technologies libres</h4>
+          <p>Bibliothèques Javascript<!-- raw HTML omitted --> (OpenLayers 5, Chart.js - Proj4)<!-- raw HTML omitted --> Framework Bootstrap</p>
+        </div>
+        
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 tf-ion-ios-cog"></i>
+          <h4 class="font-weight-bold mb-2">Un visualisateur à la carte</h4>
+          <p>Installation simple et rapide<!-- raw HTML omitted --> Paramétrage avancé<!-- raw HTML omitted --> Interface personnalisable<!-- raw HTML omitted --> Déclinable en applications métiers</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-orange section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <img class="img-fluid" src="https://mviewer.netlify.com/images/mviewer-studio.png" alt="">
+      </div>
+      <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <p>Le 25 novembre, le Comité de pilotage (PSC) organise les deuxièmes rencontres mviewer à Paris (15e) au Lieu de la transformation publique dans la cadre du mois de l'innovation publique.</p>
-<h4 class="subheading">Programme</h4><p>10h00 -<strong> Accueil et introduction</strong> par le Comité de pilotage (PSC)</p><p>10h10 - <strong>Connaître mviewer et ses utilisateurs</strong></p>
-<ul>
-  <li class="list-group">Présentation de mviewer</li>
-  <li class="list-group">Retour sur les premières rencontres</li>
-  <li class="list-group">Nouveautés et perspectives</li>
-</ul>
-<p>11h -<strong> Accueil et introduction</strong> Présentation de cas d'usages</p>
-<ul>
-  <li class="list-group">Observatoire du Parc naturel régional du Morvan (Céline Davot - PNR Morvan)</li>
-  <li class="list-group">Les installations productrices d’énergies renouvelables sur le territoire du Rhin Supérieur (Stéphane Ritzenthaler - GeoRhena)</li>
-  <li class="list-group">Occupation du sol et mviewer (Tom Brunelle - OpenIG)</li>
-  <li class="list-group">Mviewer comme outil de régulation du SMUR (Anthony Necha et Oscar JANIN - ARS Ile de France)</li>
-  <li class="list-group">Usage des templates et addons à (Cédric Briand Rennes Métropole)</li>
-  <li class="list-group">Copernicus Régional, les données satellitaires pour tou.t.e.s, tout le temps (Marie Jagaille - Bretagne Télécom)</li>
-  <li class="list-group">Nocodecarte avec mviewer et nocodb (Fabrice Phung - DREAL Bretagne)</li>
-Mviewer avec l’application de signalement participatif GéoContrib (Vincent Fabry - Géo2France)</li>
-  <li class="list-group">Kartenn économie (Loïc Ecault - Région Bretagne)</li>
-  <li class="list-group">OGC SensorThings générique pour mviewer (Hervé Squividant - UMR SAS Rennes)</li>
-</ul>
-<p>12h30 - <strong>Pause déjeuner</strong> - (! Attention : le repas n'est pas pris en charge par les organisateurs)</p>
-<p>14h - <strong>Comment contribuer à mviewer ?</strong></p>
-<p>14h15 - <strong>La fabrique mviewer</strong> sous formes d’ateliers</p>
-<ul>
-  <li class="list-group">Découvrir mviewer</li>
-  <li class="list-group">Horizon 2030</li>
-  <li class="list-group">Donnez votre avis sur mviewer</li>
-</ul>
-<p>15h30 - <strong>Synthèse des ateliers</strong></p>
-<p>15h45 - <strong>Forum des échanges</strong></br>Organisation ouverte : vous venez avec vos questions ou demandes et la communauté de contributeurs essaie d'y répondre, de trouver une solution.</p>
-<p>16h30 - <strong>Clôture</strong></p>
-<p>Fin des inscription en ligne le 18 novembre sur <a href="https://www.eventbrite.fr/e/billets-les-deuxiemes-rencontres-mviewer-372724227197" target="_blank">eventbrite</a></p>
+          <h2 class="subheading text-white font-weight-bold mb-10">Studio, le générateur d&rsquo;applications</h2>
+          <p class="text-white font-weight-normal">mviewer studio permet de déployer facilement des applications pour des non spécialistes.<!-- raw HTML omitted --> Plus besoin de connaître les langages de développement, créez, paramétrez et personnalisez facilement votre application cartographique.</p>
+          
+          
+          <a href="https://github.com/geobretagne/mviewerstudio" target="_blank" class="btn btn-second btn-main-sm">Plus d&#39;informations</a>
+          
+          
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
+<section class="feature-list section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>Pourquoi choisir le mviewer ?</h2>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mb-40">
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <img class="img-fluid" src="https://mviewer.netlify.com/images/mviewer-4.png" alt="">
+      </div>
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+          <h4 class="subheading">Simple, rapide, modulaire, ergonomique</h4>
+          <p>Élargissez la cible de vos utilisateurs : vous pouvez enrichir vos applications avec des données géographiques, des graphiques et du contenu éditorial pour les diffuser sur vos sites institutionnels et sur tous les supports.</p>
+          
+          
+          <a href="http://kartenn.region-bretagne.fr/kartoviz/demo/" target="_blank" class="btn btn-main btn-main-sm">Exemples</a>
+          
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mb-40">
+      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+        <div class="content">
+          <h4 class="subheading">Communautaire, libre</h4>
+          <p>Développé par une communauté de développeurs et d’utilisateurs, contribuez vous aussi aux nouvelles évolutions ! Sur <a href="https://github.com/geobretagne/mviewer">github</a>, <a title="Salon Maxtrix mviewer" href="https://matrix.to/#/#mviewer:matrix.org">sur le salon Matrix</a>, lors des rencontres mviewer&hellip;</p>
+          
+          
+          <a href="http://mviewerdoc.readthedocs.io/fr/latest/" target="_blank" class="btn btn-main btn-main-sm">Bien démarrer</a>
+          
+          
+        </div>
+      </div>
+      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
+        <img class="img-fluid" src="https://mviewer.netlify.com/images/mviewer-3.png" alt="">
+      </div>
+    </div>
+    
+    
+  </div>
+</section>
+
+
+
+<!-- Portfolio Section -->
+<section class="portfolio section" id="portfolio">
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<div class="heading">
+			  <h2>Portfolio</h2>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
+					data-toggle="buttons">
+					<label class="btn active">
+						<input type="radio" name="shuffle-filter" value="all" checked="checked" />Tous
+					</label>
+					<label class="btn">
+						<input type="radio" name="shuffle-filter" value="avanc%C3%A9" />Avancé
+					</label>
+					
+					<label class="btn">
+						<input type="radio" name="shuffle-filter" value="simple" />Simple
+					</label>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="row shuffle-wrapper justify-content-center">
+			<!-- portfolio item -->
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-1.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-1.png'" alt="Région Bretagne">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-1.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="http://kartenn.region-bretagne.fr/territoires/" target="_blank">Région Bretagne</a>
+							
+						</h4>
+						<p>Kartenn territoires</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-2.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-2.png'" alt="ARS Ile-de-France">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-2.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://santegraphie.fr/mviewer/?config=apps/urbadiag_v2.xml#" target="_blank">ARS Ile-de-France</a>
+							
+						</h4>
+						<p>La santé dans un projet de territoire</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-3.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-3.png'" alt="Université de Bretagne Sud">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-3.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="http://mapuce.orbisgis.org/" target="_blank">Université de Bretagne Sud</a>
+							
+						</h4>
+						<p>MApUCE, modélisation appliquée et droit de l’Urbanisme</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-4.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-4.png'" alt="Observatoire du foncier en Bretagne">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-4.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://geobretagne.fr/pub/dreal_b/mviewer/?config=../apps/obsfoncier/config.xml" target="_blank">Observatoire du foncier en Bretagne</a>
+							
+						</h4>
+						<p>Mesurer la consommation foncière sur les territoires bretons</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-5.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-5.png'" alt="Grand Albigeois">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-5.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://carto.ic2a.net/index_4_apps.html?config=apps/plui.xml" target="_blank">Grand Albigeois</a>
+							
+						</h4>
+						<p>Outil d&rsquo;aide à la consultation du projet de PLUi du Grand Albigeois</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-6.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-6.png'" alt="INRA Agrocampus">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-6.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="http://geowww.agrocampus-ouest.fr/mviewer/?config=../apps/parchemins/parchemins.xml" target="_blank">INRA Agrocampus</a>
+							
+						</h4>
+						<p>Parchemins, projet de recherche participative</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-7.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-7.png'" alt="INRA Agrocampus">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-7.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="http://geowww.agrocampus-ouest.fr/mviewer/?config=../apps/simfen/simfen.xml" target="_blank">INRA Agrocampus</a>
+							
+						</h4>
+						<p>SIMFEN, modélisation des flux d&rsquo;eau et de nitrates</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-8.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-8.png'" alt="Investir en Finistère">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-8.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://www.accesmerenfinistere.fr/Accueil-865-0-0-0.html#carteSites" target="_blank">Investir en Finistère</a>
+							
+						</h4>
+						<p>Accès Mer pour des activités de production en Finistère</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-9.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-9.png'" alt="Presov">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-9.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://geopresovregion.sk/mviewer/?lang=en#life-en" target="_blank">Presov</a>
+							
+						</h4>
+						<p>Life in region</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-10.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-10.png'" alt="Région Bretagne">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-10.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://www.bretagne.bzh/actions/grands-projets/fibre-pour-tous/deploiement/" target="_blank">Région Bretagne</a>
+							
+						</h4>
+						<p>Exemple d&rsquo;intégration d&rsquo;une carte dans le site lafibrepourtous</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-11.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-11.png'" alt="Région Hauts de France">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-11.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://sig.hautsdefrance.fr/ext/MAEC/?config=apps/maec.xml" target="_blank">Région Hauts de France</a>
+							
+						</h4>
+						<p>Portail cartographique des MAEC</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-12.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-12.png'" alt="geo2france">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-12.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://www.geo2france.fr/mviewer/?config=apps/transport_hdf.xml" target="_blank">geo2france</a>
+							
+						</h4>
+						<p>Portail cartographique des données de transport</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-13.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-13.png'" alt="Rennes Métropole">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-13.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://metropole.rennes.fr/43-communes" target="_blank">Rennes Métropole</a>
+							
+						</h4>
+						<p>Exemple d&rsquo;intégration de cartes dans un site institutionnel</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-14.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-14.png'" alt="SAGE Couesnon">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-14.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="http://geocouesnon.sage-couesnon.fr/geocouesnon/" target="_blank">SAGE Couesnon</a>
+							
+						</h4>
+						<p>Visualiseur cartographique des thématiques de l&rsquo;eau et des milieux aquatiques</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-15.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-15.png'" alt="SAGE Rance-Frémur">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-15.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://geobretagne.fr/mviewer/?config=/pub/sage-rance-fremur/apps/config.xml" target="_blank">SAGE Rance-Frémur</a>
+							
+						</h4>
+						<p>Visualiseur cartographique des données sur l’eau et les milieux aquatiques des bassins versants</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-16.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-16.png'" alt="SDIS 29">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-16.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://geobretagne.fr/mviewer/?config=/pub/sdis29/apps/sdis29.xml" target="_blank">SDIS 29</a>
+							
+						</h4>
+						<p>Visualiseur cartographique du SDIS du Finistère</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;simple&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-17.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-17.png'" alt="GiS Bretel">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-17.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://geobretagne.fr/pub/dreal_b/mviewer/?config=../apps/teledetection/config.xml" target="_blank">GiS Bretel</a>
+							
+						</h4>
+						<p>Explorez votre territoire vu de l’espace avec des images</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-18.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-18.png'" alt="Pigma">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-18.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://www.pigma.org/public/visualiseur/mviewer/?config=apps/donneesplages/donneesplages.xml" target="_blank">Pigma</a>
+							
+						</h4>
+						<p>Plages surveillées de Nouvelle Aquitaine</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-19.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-19.png'" alt="ARS Île-de-France">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-19.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">							
+							<a href="https://santegraphie.fr/mviewer3/?config=app/conso_soins.xml" target="_blank">ARS Île-de-France</a>
+							
+						</h4>
+						<p>Epidémie du Coronavirus consommation de soins Covid19</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-20.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-20.png'" alt="Mégalis Bretagne">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-20.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://geobretagne.fr/mviewer/?config=/apps/megalis-services/config.xml" target="_blank">Mégalis Bretagne</a>
+							
+						</h4>
+						<p>Usage des services numériques</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;avanc%C3%A9&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="https://mviewer.netlify.com/images/portfolio/fr/portfolio-21.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-21.png'" alt="Rennes Métropole">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/fr/portfolio-21.png"
+							data-lightbox="image-1">
+							<i class="tf-ion-search"></i>
+						</a>
+						<h4 class="mt-3">
+							
+							<a href="https://mviewer.sig.rennesmetropole.fr/?config=apps/cartoHoraires/alabonneheure.xml" target="_blank">Rennes Métropole</a>
+							
+						</h4>
+						<p>A la bonne heure : repensons nos horaires de travail</p>
+					</div>
+				</div>
+			</div>			
+			
+		</div>
+	</div>
+</section>
+<!-- /Portfolio -->
+
+
+
+
+
+
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>Utilisateurs</h2>
+        </div>
+
+        <div class="gallery-slider">
+          
+          
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/1.png" alt="Région Bretagne">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/2.png" alt="Préfecture de Bretagne">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/3.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/4.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/5.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/6.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/7.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/8.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/9.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/10.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/11.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/12.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/13.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/14.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/15.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/16.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/17.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/18.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/19.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/20.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/21.png" alt="">
+          </div>
+          <div class="block">
+            <img class="img-fluid" src="/images/showcase/22.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="gallery" id="galleryC">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>Ils développent et contribuent</h2>
+        </div>
+        <div class="gallery-slider">
+          
+		  
+          <div class="block">
+            <a href="https://www.bretagne.bzh" target="_blank"><img class="img-fluid" src="https://mviewer.netlify.com/images/showcase/1.png" alt="Région Bretagne"></a>
+          </div>
+			
+          
+		  
+          <div class="block">
+            <a href="https://www.neogeo.fr" target="_blank"><img class="img-fluid" src="https://mviewer.netlify.com/images/showcase/c3.png" alt="Neogeo"></a>
+          </div>
+			
+          
+		  
+          <div class="block">
+            <a href="https://jdev.fr" target="_blank"><img class="img-fluid" src="https://mviewer.netlify.com/images/showcase/c4.png" alt="JDev"></a>
+          </div>
+			
+          
+		  
+          <div class="block">
+            <a href="https://www.agatheadam.com/" target="_blank"><img class="img-fluid" src="https://mviewer.netlify.com/images/showcase/c5.png" alt="Agathe Adam"></a>
+          </div>
+			
+          
+		  
+          <div class="block">
+            <a href="https://www.camptocamp.com/" target="_blank"><img class="img-fluid" src="https://mviewer.netlify.com/images/showcase/c6.png" alt="Camptocamp"></a>
+          </div>
+			
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
 
 <footer class="bg-opacity">
   <div class="container text-center">
@@ -167,9 +852,11 @@ Mviewer avec l’application de signalement participatif GéoContrib (Vincent Fa
             <li class="list-group-item bg-transparent border-0 p-0 mb-2">
               <a class="page-scroll" href="https://mviewer.netlify.com/fr/index.html#gallery">UTILISATEURS</a>
             </li>
-             <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-              <a class="page-scroll" href="https://mviewer.netlify.com/fr/blog/" target="_blank">BLOG</a>
-            </li>          
+ 
+            <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+              <a class="page-scroll" href="https://mviewer.netlify.app/fr/blog/">BLOG</a>
+            </li> 
+            
             <li class="list-group-item bg-transparent border-0 p-0 mb-2">
               <a class="page-scroll" href="https://github.com/geobretagne/mviewer" target="_blank">TÉLÉCHARGER</a>
             </li>
@@ -182,15 +869,10 @@ Mviewer avec l’application de signalement participatif GéoContrib (Vincent Fa
         </div>
         <div class="col-lg-3 col-xs-12 links">
           <ul class="list-inline footer-menu">
-              
-              <li class="list-inline-item bg-transparent border-0 p-0 mb-2"><a class="page-scroll" href="https://mviewer.netlify.com/en/">EN</a></li>
-              
-              <li class="list-inline-item bg-transparent border-0 p-0 mb-2"><a class="page-scroll" href="https://mviewer.netlify.com/fr/">FR</a></li>
-              
-          </ul>
-          <ul class="list-inline footer-menu">
-                <p class="copyright-text"><a title="mviewer sur Github" href="https://github.com/geobretagne/mviewer"><i class="d-inlin-block h2 mb-10 tf-ion-social-github"></i></a></p>
-				<p class="copyright-text"><a title="Salon Maxtrix mviewer" href="https://matrix.to/#/#mviewer:matrix.org"><i class="d-inlin-block h2 mb-10 tf-ion-chatbubble-working"></i></a></p>				
+                <li class="list-inline-item bg-transparent border-0 p-0 mb-2 copyright-text"><a title="mviewer sur Github" href="https://github.com/geobretagne/mviewer"><i class="d-inlin-block h2 mb-10 tf-ion-social-github"></i></a></li>
+				<li class="list-inline-item bg-transparent border-0 p-0 mb-2 copyright-text"><a title="Salon Maxtrix mviewer" href="https://matrix.to/#/#mviewer:matrix.org"><i class="d-inlin-block h2 mb-10 tf-ion-chatbubble-working"></i></a></li>
+				<li class="list-inline-item bg-transparent border-0 p-0 mb-2 copyright-text"><a title="Nous suivre sur Twitter" href="https://twitter.com/MviewerPsc"><i class="d-inlin-block h2 mb-10 tf-ion-social-twitter"></i></a></li>				
+				<li class="list-inline-item bg-transparent border-0 p-0 mb-2 copyright-text"><a title="Flux rss" href="https://mviewer.netlify.app/fr/blog/index.xml"><i class="d-inlin-block h2 mb-10 tf-ion-social-rss"></i></a></li>			
           </ul>
         </div>
         <div class="col-md-12">
@@ -219,4 +901,4 @@ Mviewer avec l’application de signalement participatif GéoContrib (Vincent Fa
 
 <script src="https://mviewer.netlify.com/script.js"></script>
 </body>
-</html>
+</html
