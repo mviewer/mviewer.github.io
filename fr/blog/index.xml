@@ -7,7 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Mon, 28 november 2022 11:22:16 +0600</lastBuildDate><atom:link href="https://mviewer.netlify.app/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 january 2023 16:22:16 +0600</lastBuildDate><atom:link href="https://mviewer.netlify.app/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migration des dépôts github</title>
+      <link>https://mviewer.netlify.app/fr/blog/post-3/</link>
+      <pubDate>Mon, 03 january 2023 16:22:16 +0600</pubDate>     
+      <guid>https://mviewer.netlify.app/fr/blog/post-3</guid>
+      <description>Migration des dépôts mviewer et mviewerstudio sur un nouveau domaine.</description>
+    </item> 	
     <item>
       <title>Présentation des deuxièmes rencontres mviewer</title>
       <link>https://mviewer.netlify.app/fr/blog/post-2/</link>
