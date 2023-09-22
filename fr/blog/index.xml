@@ -4,10 +4,16 @@
     <title>Les actualités mviewer</title>
     <link>https://mviewer.netlify.app/fr/blog/</link>
     <description>Actualités récentes</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Mon, 03 january 2023 16:22:16 +0600</lastBuildDate><atom:link href="https://mviewer.netlify.app/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 january 2023 16:22:16 +0600</lastBuildDate><atom:link href="https://mviewer.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinaires en octobre 2023</title>
+      <link>https://mviewer.netlify.app/fr/blog/post-4/</link>
+      <pubDate>Fri, 21 september 2023 16:22:16 +0600</pubDate>     
+      <guid>https://mviewer.netlify.app/fr/blog/post-4</guid>
+      <description>Webinaires mviewer et mviewerstudio</description>
+    </item> 
     <item>
       <title>Migration des dépôts github</title>
       <link>https://mviewer.netlify.app/fr/blog/post-3/</link>
