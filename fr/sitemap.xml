@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mviewer.netlify.com/fr/blog/</loc>
+    <loc>https://mviewer.github.io/fr/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mviewer.netlify.com/en/blog/"
+                href="https://mviewer.github.io/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://mviewer.netlify.com/fr/blog/"
+                href="https://mviewer.github.io/fr/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://mviewer.netlify.com/fr/</loc>
+    <loc>https://mviewer.github.io/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mviewer.netlify.com/en/"
+                href="https://mviewer.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://mviewer.netlify.com/fr/"
+                href="https://mviewer.github.io/fr/"
                 />
   </url>
   
