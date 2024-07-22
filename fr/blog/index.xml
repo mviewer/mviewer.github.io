@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Les actualités mviewer</title>
-    <link>https://mviewer.netlify.app/fr/blog/</link>
+    <link>https://mviewer.github.io/fr/blog/</link>
     <description>Actualités récentes</description>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
@@ -16,30 +16,30 @@
     </item>   	
     <item>
       <title>Webinaires en octobre 2023</title>
-      <link>https://mviewer.netlify.app/fr/blog/post-4/</link>
+      <link>https://mviewer.github.io/fr/blog/post-4/</link>
       <pubDate>Tue, 17 october 2023 14:22:16 +0600</pubDate>     
-      <guid>https://mviewer.netlify.app/fr/blog/post-4</guid>
+      <guid>https://mviewer.github.io/fr/blog/post-4</guid>
       <description>Webinaires mviewer et mviewerstudio</description>
     </item> 
     <item>
       <title>Migration des dépôts github</title>
-      <link>https://mviewer.netlify.app/fr/blog/post-3/</link>
+      <link>https://mviewer.github.io/fr/blog/post-3/</link>
       <pubDate>Mon, 03 january 2023 16:22:16 +0600</pubDate>     
-      <guid>https://mviewer.netlify.app/fr/blog/post-3</guid>
+      <guid>https://mviewer.github.io/fr/blog/post-3</guid>
       <description>Migration des dépôts mviewer et mviewerstudio sur un nouveau domaine.</description>
     </item> 	
     <item>
       <title>Présentation des deuxièmes rencontres mviewer</title>
-      <link>https://mviewer.netlify.app/fr/blog/post-2/</link>
+      <link>https://mviewer.github.io/fr/blog/post-2/</link>
       <pubDate>Mon, 28 november 2022 11:22:16 +0600</pubDate>     
-      <guid>https://mviewer.netlify.app/fr/blog/post-2</guid>
+      <guid>https://mviewer.github.io/fr/blog/post-2</guid>
       <description>Les présentations des deuxièmes rencontres mviewer sont disponibles.</description>
     </item>  
     <item>
       <title>Deuxièmes rencontres mviewer</title>
-      <link>https://mviewer.netlify.app/fr/blog/post-1/</link>
+      <link>https://mviewer.github.io/fr/blog/post-1/</link>
       <pubDate>Mon, 11 july 2022 11:22:16 +0600</pubDate>    
-      <guid>https://mviewer.netlify.app/fr/blog/post-1</guid>
+      <guid>https://mviewer.github.io/fr/blog/post-1</guid>
       <description>Le 25 novembre, le Comité de pilotage (PSC) organise les deuxièmes rencontres mviewer à Paris (15e) au Lieu de la transformation publique.</description>
     </item>    	
   </channel>
