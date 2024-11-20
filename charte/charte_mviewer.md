@@ -85,9 +85,8 @@ Le code source des outils mviewer est hébergé sur GitHub et librement accessib
 [https://github.com/mviewer](https://github.com/mviewer)
 
 La documentation associée est également accessible librement :
-[https://mviewerdoc.readthedocs.io/fr/stable/](https://mviewerdoc.readthedocs.io/fr/stable/)
-
-[https://mviewerstudio.readthedocs.io/fr/stable/](https://mviewerstudio.readthedocs.io/fr/stable/)
+   * [mviewer](https://mviewerdoc.readthedocs.io/fr/stable/)
+   * [mviewerstudio](https://mviewerstudio.readthedocs.io/fr/stable/)
 
 Le site internet [https://mviewer.github.io](https://mviewer.github.io) permet la diffusion d'informations à un plus large public.
 Le salon matrix [https://app.element.io/#/room/#mviewer:matrix.org](https://app.element.io/#/room/#mviewer:matrix.org) permet d'intéragir avec la communauté.
