@@ -6,14 +6,21 @@
     <description>Actualités récentes</description>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Mon, 22 july 2024 10:00:16 +0600</lastBuildDate><atom:link href="https://mviewer.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
-<!--     <item>
+    <lastBuildDate>Mon, 2 june 2025 10:00:16 +0600</lastBuildDate><atom:link href="https://mviewer.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Troisièmes rencontres mviewer</title>
+      <link>https://mviewer.netlify.app/fr/blog/post-7/</link>
+      <pubDate>Mon, 2 june 2025 10:00:16 +0600</pubDate>    
+      <guid>https://mviewer.netlify.app/fr/blog/post-7</guid>
+      <description>Retrouvez les présentations des 3e rencontre mviewer 2025.</description>
+    </item> 
+    <item>
+      <title>Annonce des troisièmes rencontres mviewer</title>
       <link>https://mviewer.netlify.app/fr/blog/post-6/</link>
-      <pubDate>Mon, 22 july 2024 10:00:16 +0600</pubDate>    
+      <pubDate>Thu, 22 november 2024 12:30:16 +0600</pubDate>    
       <guid>https://mviewer.netlify.app/fr/blog/post-6</guid>
-      <description>Le 21 novembre, le Comité de pilotage (PSC) organise les troisièmes rencontres mviewer à Dijon (21) en partenariat avec l'Arnia.</description>
-    </item>  -->
+      <description>Le Comité de pilotage (PSC) organise les troisièmes rencontres mviewer en 2025.</description>
+    </item> 
     <item>
       <title>Webinaire de novembre 2024</title>
       <link>https://mviewer.github.io/fr/blog/post-5/</link>
