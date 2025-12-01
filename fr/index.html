@@ -96,12 +96,12 @@
 <section class="section-s">
   <div class="container">
     <div class="row">
-<!-- 		<div class="col-12 alert alert-warning alert-dismissible fade show" role="alert">
-		<strong><span style="font-size:17px">Les troisièmes rencontres auront lieu le 22 mai 2025 à Paris. Info et inscriptions : <a href="https://mviewer.github.io/fr/blog/post-6/index.html">lien</a>.</span></strong>
+		<div class="col-12 alert alert-warning alert-dismissible fade show" role="alert">
+		<strong><span style="font-size:17px">Webinaire le 4 décembre à 10h30 et 11h30 sur la version 4 de mviewer. <a href="https://webinaire.numerique.gouv.fr/meeting/signin/invite/44319/creator/21616/hash/206c89961016dbfb7d956fc4d07a8d5eb9a1b33f">Lien de la visioconférence</a>.</span></strong>
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
 		</button>
-		</div> -->
+		</div>
 <!-- 		<div class="col-12 alert alert-info alert-dismissible fade show" role="alert">
 		<strong><span style="font-size:17px">Vous souhaitez faire évoluer mviewer ? merci de remplir le sondage : <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fPro-VrcrEWcNHd_aLs5LyNk2oOqEd5OsaCh2ocfAtlUNzdDTjNEV1M0UlROMk9GRjNPNjA5TkZDRC4u">lien</a></span></strong>
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -188,40 +188,6 @@
   </div>
 </section>
 
-<section class="bg-orange section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 text-center mb-5 mb-lg-0">
-        <img class="img-fluid" src="https://mviewer.github.io/images/mviewer-studio.png" alt="">
-      </div>
-      <div class="col-md-6 align-self-center text-center text-md-left">
-        <div class="content">
-          <h2 class="subheading text-white font-weight-bold mb-10">Studio, le générateur d&rsquo;applications</h2>
-          <p class="text-white font-weight-normal">mviewer studio permet de déployer facilement des applications pour des non spécialistes.<!-- raw HTML omitted --> Plus besoin de connaître les langages de développement, créez, paramétrez et personnalisez facilement votre application cartographique.</p>
-          
-          
-          <a href="https://github.com/mviewer/mviewerstudio" target="_blank" class="btn btn-second btn-main-sm">Plus d&#39;informations</a>
-          
-          
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 align-self-center text-center text-md-left">
-        <div class="content">
-          <p class="text-white font-weight-normal">Deux cas d'usage présentent les fonctionnalités du générateur d'application, mviewer studio.</p>         
-        </div>
-      </div>
-      <div class="col-md-6 text-center mb-5 mb-lg-0">
-		<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://geobretagne.fr/pub/video/DesignMotion_Mstudio2023_UserCase_compress.mp4" controls allowfullscreen></iframe>
-		</div>
-      </div>	  
-    </div>	
-  </div>
-</section>
-
-
-
 <section class="feature-list section">
   <div class="container">
     <div class="row">
@@ -297,6 +263,10 @@
 						<input type="radio" name="shuffle-filter" value="simple" />Simple
 					</label>
 					
+					<label class="btn">
+						<input type="radio" name="shuffle-filter" value="storymap" />Storymap
+					</label>					
+					
 				</div>
 			</div>
 		</div>
@@ -341,7 +311,7 @@
 				</div>
 			</div>	
 			<div class="col-lg-4 shuffle-item"
-				data-groups="[&quot;simple&quot;]">
+				data-groups="[&quot;storymap&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://mviewer.github.io/images/portfolio/fr/portfolio-5.webp" onerror="this.onerror=null;this.src='https:\/\/mviewer.netlify.com\/images\/portfolio\/fr\/portfolio-5.png'" alt="Grand Albigeois">
 					<div class="caption">
@@ -351,10 +321,10 @@
 						</a>
 						<h4 class="mt-3">
 							
-							<a href="https://carto.ic2a.net/index_4_apps.html?config=apps/plui.xml" target="_blank">Grand Albigeois</a>
+							<a href="https://geosas.fr/storymap/stories/regards/regards_douarnenez.html" target="_blank">L'équipe scientifique Parchemins</a>
 							
 						</h4>
-						<p>Outil d&rsquo;aide à la consultation du projet de PLUi du Grand Albigeois</p>
+						<p>Regards sur la baie de Douarnenez</p>
 					</div>
 				</div>
 			</div>
@@ -644,9 +614,52 @@
 </section>
 <!-- /Portfolio -->
 
+<section class="bg-orange section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <img class="img-fluid" src="https://mviewer.github.io/images/mviewer-studio.png" alt="">
+      </div>
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+          <h2 class="subheading text-white font-weight-bold mb-10">Studio, le générateur d&rsquo;applications</h2>
+          <p class="text-white font-weight-normal">mviewer studio permet de déployer facilement des applications pour des non spécialistes.<!-- raw HTML omitted --> Plus besoin de connaître les langages de développement, créez, paramétrez et personnalisez facilement votre application cartographique.</p>
+          <a href="https://geobretagne.fr/pub/video/DesignMotion_Mstudio2023_UserCase_compress.mp4" target="_blank" class="btn btn-second btn-main-sm">Démonstration</a>  
+          <a href="https://github.com/mviewer/mviewerstudio" target="_blank" class="btn btn-second btn-main-sm">Plus d&#39;informations</a> 
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row"> -->
+      <!-- <div class="col-md-6 align-self-center text-center text-md-left"> -->
+        <!-- <div class="content"> -->
+          <!-- <p class="text-white font-weight-normal">Deux cas d'usage présentent les fonctionnalités du générateur d'application, mviewer studio.</p>          -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- <div class="col-md-6 text-center mb-5 mb-lg-0"> -->
+		<!-- <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://geobretagne.fr/pub/video/DesignMotion_Mstudio2023_UserCase_compress.mp4" controls allowfullscreen></iframe> -->
+		<!-- </div> -->
+      <!-- </div>	   -->
+    <!-- </div>	 -->
+  </div>
+</section>
 
-
-
+<section class="bg-orange section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+          <h2 class="subheading text-white font-weight-bold mb-10">Storymap, l'application de mise en récit d'une carte.</h2>
+          <p class="text-white font-weight-normal">Storymap permet de valoriser sous la formes de carte éditorialisée.</p>
+          <a href="https://github.com/mviewer/storymap" target="_blank" class="btn btn-second btn-main-sm">Plus d&#39;informations</a>    
+        </div>
+      </div>		
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <img class="img-fluid" src="https://mviewer.github.io/images/storymap.png" alt="">
+      </div>		
+      </div>
+    </div>	
+  </div>
+</section>
 
 
 <section class="gallery" id="gallery">
