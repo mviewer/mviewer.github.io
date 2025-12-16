@@ -6,7 +6,14 @@
     <description>Actualités récentes</description>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Mon, 2 june 2025 10:00:16 +0600</lastBuildDate><atom:link href="https://mviewer.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 décember 2025 13:45:16 +0600</lastBuildDate><atom:link href="https://mviewer.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webinaire mviewer 4</title>
+      <link>https://mviewer.netlify.app/fr/blog/post-8/</link>
+      <pubDate>Tue, 16 décember 2025 13:45:16 +0600</pubDate>    
+      <guid>https://mviewer.netlify.app/fr/blog/post-8</guid>
+      <description>Découvrez la nouvelle version majeur de mviewer : 4.0</description>
+    </item> 	
     <item>
       <title>Troisièmes rencontres mviewer</title>
       <link>https://mviewer.netlify.app/fr/blog/post-7/</link>
